@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Component Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="a-t1(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.testng.Test01">
+        <methods>
+          <include name="setupEnvironment"/>
+          <include name="openWebsite"/>
+          <include name="newWindow"/>
+        </methods>
+      </class> <!-- com.selenium.testng.Test01 -->
+    </classes>
+  </test> <!-- a-t1(failed) -->
+</suite> <!-- Failed suite [Component Tests] -->

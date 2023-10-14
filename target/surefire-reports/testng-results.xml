@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-14T17:59:04 IST" name="Component Tests" finished-at="2023-10-14T17:59:22 IST" duration-ms="18233">
+    <groups>
+    </groups>
+    <test started-at="2023-10-14T17:59:04 IST" name="a-t1" finished-at="2023-10-14T17:59:12 IST" duration-ms="8749">
+      <class name="com.selenium.testng.Test01">
+        <test-method signature="openWebsite()[pri:0, instance:com.selenium.testng.Test01@43195e57]" started-at="2023-10-14T17:59:04 IST" name="openWebsite" finished-at="2023-10-14T17:59:10 IST" duration-ms="6461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="newWindow()[pri:0, instance:com.selenium.testng.Test01@43195e57]" started-at="2023-10-14T17:59:10 IST" name="newWindow" finished-at="2023-10-14T17:59:12 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindow -->
+      </class> <!-- com.selenium.testng.Test01 -->
+    </test> <!-- a-t1 -->
+    <test started-at="2023-10-14T17:59:12 IST" name="a-t2" finished-at="2023-10-14T17:59:22 IST" duration-ms="9450">
+      <class name="com.selenium.testng.Test01">
+        <test-method is-config="true" signature="setupEnvironment()[pri:0, instance:com.selenium.testng.Test01@7b9a4292]" started-at="2023-10-14T17:59:04 IST" name="setupEnvironment" finished-at="2023-10-14T17:59:04 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnvironment -->
+        <test-method signature="openWebsite()[pri:0, instance:com.selenium.testng.Test01@7b9a4292]" started-at="2023-10-14T17:59:12 IST" name="openWebsite" finished-at="2023-10-14T17:59:19 IST" duration-ms="7081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="newWindow()[pri:0, instance:com.selenium.testng.Test01@7b9a4292]" started-at="2023-10-14T17:59:19 IST" name="newWindow" finished-at="2023-10-14T17:59:22 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindow -->
+      </class> <!-- com.selenium.testng.Test01 -->
+    </test> <!-- a-t2 -->
+  </suite> <!-- Component Tests -->
+</testng-results>
