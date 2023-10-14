@@ -16,6 +16,7 @@ public class Test01 {
     }
     @Test
     public void openWebsite(){
+        System.out.println("Hello Jenkins");
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharvil\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to("https://www.youtube.com");
