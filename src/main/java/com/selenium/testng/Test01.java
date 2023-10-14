@@ -21,6 +21,7 @@ public class Test01 {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharvil\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to("https://www.youtube.com");
+            System.out.println("youtube opened");
         driver.manage().window().maximize();
         driver.findElements(By.xpath("//span[contains(text(),'Sign in')]/ancestor::a[@aria-label='Sign in']")).get(0).click();
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("sharvil.joshi11@gmail.com");
